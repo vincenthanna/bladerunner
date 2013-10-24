@@ -1,0 +1,20 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Runner/RunnerController.cs">
+    <Files>
+      <File FileName="Assets/BRGameStatus.cs" Line="15" Column="34" />
+      <File FileName="Assets/StartScreen.cs" Line="12" Column="28" />
+      <File FileName="Assets/ItemGenerator.cs" Line="57" Column="5" />
+      <File FileName="Assets/GoalLine.cs" Line="14" Column="2" />
+      <File FileName="Assets/Runner/RunnerController.cs" Line="24" Column="4" />
+      <File FileName="Assets/Item_Coin/Item_Coin.cs" Line="14" Column="3" />
+      <File FileName="Assets/StageController.cs" Line="13" Column="3" />
+      <File FileName="Assets/HalfLine.cs" Line="33" Column="3" />
+      <File FileName="Assets/Stage/Stage.cs" Line="77" Column="64" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
