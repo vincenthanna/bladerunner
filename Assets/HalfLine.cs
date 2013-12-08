@@ -16,25 +16,17 @@ public class HalfLine : MonoBehaviour
 	
 	}
 	
+
 	void OnTriggerEnter (Collider other)
 	{
+
+        /*
 		if (other.tag == "Player") {
-			/*
-			//Debug.Log ("Trigger!!!!!!!");
-			finished = true;
-		
-			GameObject player = (GameObject)GameObject.FindWithTag ("Player");
-			player.SendMessage ("endGame");
-		
-			yield return new WaitForSeconds(3.0f);
-		
-			Application.LoadLevel ("Stage1");
-			*/
-		
 			Debug.Log("Prepare Next Stage....");
 			GameObject stageController = (GameObject)GameObject.FindWithTag ("StageController");
 			stageController.SendMessage ("createNextStage");
 		}
+        */      
 
 	}
 }

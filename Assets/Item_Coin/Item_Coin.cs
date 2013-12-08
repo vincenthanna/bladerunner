@@ -37,19 +37,38 @@ public class Item_Coin : MonoBehaviour
 		if (other.tag == "PlayerController") {
 			//other.gameObject.SendMessage("OnGetCoin");
 			GameObject player = (GameObject)GameObject.FindWithTag ("Player");
-			player.SendMessage ("OnGetCoin");
-			
+
+            int coinCount = 0;
+            if (gameObject.tag == "Item_Coin") {
+                coinCount = 1;
+            }
+            else if (gameObject.tag == "Item_Bill_1000") {
+                coinCount = 20;
+            }
+            else if (gameObject.tag == "Item_Bill_5000") {
+                coinCount = 30;
+            }
+            else if (gameObject.tag == "Item_Bill_10000") {
+                coinCount = 75;
+            }
+            else {
+                Debug.Log (string.Format("Coin/Bill tag Error!!!"));
+            }
+
+            player.SendMessage ("OnGetCoin", coinCount);
 			
 			Instantiate (gainEffectPrefab, transform.position, transform.rotation);
 			Destroy (gameObject);
-			
-			
-			
 		}
 	}
 	
 	void OnCollisionEnter (Collision collision)
 	{
 		//Debug.Log (string.Format("coin collider tag={0}", collision.gameObject.tag));
+	}
+
+	void destroy()
+	{
+		Destroy(gameObject);
 	}
 }

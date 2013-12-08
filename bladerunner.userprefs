@@ -1,17 +1,36 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Runner/RunnerController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Buff/Buff_HighJump.cs">
     <Files>
-      <File FileName="Assets/BRGameStatus.cs" Line="15" Column="34" />
-      <File FileName="Assets/StartScreen.cs" Line="12" Column="28" />
-      <File FileName="Assets/ItemGenerator.cs" Line="57" Column="5" />
-      <File FileName="Assets/GoalLine.cs" Line="14" Column="2" />
-      <File FileName="Assets/Runner/RunnerController.cs" Line="24" Column="4" />
-      <File FileName="Assets/Item_Coin/Item_Coin.cs" Line="14" Column="3" />
-      <File FileName="Assets/StageController.cs" Line="13" Column="3" />
-      <File FileName="Assets/HalfLine.cs" Line="33" Column="3" />
-      <File FileName="Assets/Stage/Stage.cs" Line="77" Column="64" />
+      <File FileName="Assets/Runner/RunnerController.cs" Line="25" Column="35" />
+      <File FileName="Assets/HalfLine.cs" Line="21" Column="3" />
+      <File FileName="Assets/StageController.cs" Line="13" Column="5" />
+      <File FileName="Assets/StartScreen.cs" Line="40" Column="31" />
+      <File FileName="Assets/BRGameStatus.cs" Line="15" Column="1" />
+      <File FileName="Assets/Runner/RunnerAbility.cs" Line="4" Column="1" />
+      <File FileName="Assets/Buff/Buff_HighJump.cs" Line="21" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Assembly-CSharp" expanded="True">
+            <Node name="Buff" expanded="True">
+              <Node name="Buff_HighJump.cs" selected="True" />
+            </Node>
+            <Node name="Item_Coin" expanded="True" />
+            <Node name="Runner" expanded="True" />
+            <Node name="Stage" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True">
+          <Node name="Assembly-CSharp" expanded="True">
+            <Node name="Buff_HighJump" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
